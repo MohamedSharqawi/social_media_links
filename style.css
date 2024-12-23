@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Inter", serif;
+    font-size: 10px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cont {
+    background-color: hsl(0, 0%, 12%);
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.cont img {
+    border-radius: 50%;
+    width: 7rem;
+    margin-bottom: 0.6rem;
+}
+
+.cont h1 {
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.cont .location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: -0.7rem;
+    opacity: 0.9;
+}
+
+.cont .desc {
+    opacity: 0.8;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+.cont ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 0.6rem;
+}
+
+.cont ul li {
+    background-color: hsl(0, 0%, 20%);
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.cont ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.3;
+}
+
+.cont ul li:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.cont ul li:hover a {
+    color: black;
+}
